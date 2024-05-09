@@ -1,1 +1,0 @@
-{"uuid":"b298fb20-4b35-457a-9e00-4457d3e8bf27","name":"testAddPhotoButtonLeadsToSignIn()","children":["1a7400ba-98b5-4681-ad64-58ff57f9c131"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1715282537228,"stop":1715282538080}],"afters":[],"start":1715282537226,"stop":1715282539024}
