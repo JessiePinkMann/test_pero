@@ -80,7 +80,7 @@ public class CommunityPageTest {
     @Test
     public void testAllPostsLinkNavigatesCorrectly() {
         $(byText("Все записи")).click();
-        String expectedUrl = "https://vk.com/wall-225299895"; // Допустим, что это полный URL
+        String expectedUrl = "https://vk.com/wall-225299895";
         WebDriverWait wait = new WebDriverWait(WebDriverRunner.getWebDriver(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.urlToBe(expectedUrl));
         $(".page_block_header_inner._header_inner[data-testid='header']").shouldHave(text("Все записи"));
