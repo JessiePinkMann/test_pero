@@ -1,6 +1,12 @@
 package com.example.demo;
 
-// page_url = https://vk.com/club225299895?w=product-225299895_10044406
-public class ProductPage {
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.$;
 
+public class ProductPage {
+    private String writeButtonSelector = "button .MarketServiceButton__text";
+
+    public SelenideElement getWriteButton() {
+        return $(writeButtonSelector);
+    }
 }
